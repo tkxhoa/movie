@@ -1,0 +1,402 @@
+/* This stylesheet is used to style the public view of the plugin. */
+
+form#site_post_form {
+	display: none;
+}
+
+.djd_site_post_form  {
+	margin: 0;
+	font-size: 1em;
+}
+
+.bordered {
+	border: 1px solid #9f9f9f;
+	padding: 5px 10px 5px 10px; 
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.djd_site_post_widget .bordered {
+	border: 1px solid #9f9f9f;
+	padding: 0;
+	-moz-border-radius: 0;
+	-khtml-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	
+}
+
+.djd_site_post_widget a {
+	margin: 3px;
+}
+
+.djd_site_post_form h1,
+.djd_site_post_form p {
+	margin-bottom: 0px;
+}
+
+.djd_site_post_form div#field-wrapper {
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+.djd_site_post_form legend {
+	padding: 0px 3px;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 1.5em;
+	display: inline-block;
+}
+
+.djd_site_post_widget .djd_site_post_form legend {
+	font-size: 1.2em;
+}
+
+.djd_site_post_form label {
+	display: block;
+	vertical-align: top;
+	margin-top: 6px;
+}
+
+.djd_site_post_form label#djd_quiz_label {
+	display: inline-block;
+}
+
+.djd_site_post_form em {
+	font-weight: bold;
+	font-style: normal;
+	color: #f00;
+}
+
+.djd_site_post_form input {
+	width: 50%;
+	padding: 3px;
+	border: 1px solid #9F9F9F;
+}
+
+.djd_site_post_form select {
+	width: 30%;
+}
+
+.djd_site_post_form input#djd_quiz {
+	width: auto;
+	margin-bottom: 10px;
+	/*border: 1px solid #9F9F9F;*/
+}
+
+.djd_site_post_form input[type=checkbox] {
+	width: 10px;
+}
+
+.djd_site_post_form button {
+	border: 1px solid #CCCCCC;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font-family: inherit;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding: 6px;
+	padding: 0.428571rem;
+}
+
+.djd_site_post_form input:focus,
+.djd_site_post_form textarea:focus {
+	background: #eaeaea;
+}
+
+#djd_site_post_title,
+#djd_site_post_tags,
+#djd_site_post_date,
+#djd_site_post_new_category,
+#djd_site_post_new_cat {
+	width: 99%;
+	height: auto;
+	/*border: 1px solid #9f9f9f;*/
+	margin: 0;
+}
+
+#djdsitepostcontent {
+	height: 200px;
+	border: 1px solid #9f9f9f;
+	margin: 0;
+}
+
+#djd_site_post_excerpt {
+	max-width: 99%;
+	width: 99%;
+	height: 100px;
+	border: 1px solid #9f9f9f;
+	padding: 3px;
+	margin: 0;
+}
+
+#djd_site_post_cat,
+#djd_site_post_new_cat_parent,
+#djd_site_post_tag_list {
+	width: 100%;
+	margin: 0;
+}
+
+#djd_site_post_cat_checklist {
+	list-style-type: none;
+	height: auto;
+	max-height: 150px;
+	overflow: auto;
+	border: 1px solid #9f9f9f;
+	width: 99%;
+	padding: 2px 0 2px 0;
+	margin: 0 0 15px 0;
+}
+
+#djd_site_post_cat_checklist li {
+	list-style-type: none;
+	background: none;
+	margin: 0 0 0 2px;
+	padding: 0 0 0 0px;
+}
+
+#djd_site_post_cat_checklist li ul{
+	list-style-type: none;
+	margin:0 0 0 10px;
+	padding: 0 0 0 5px!important;
+}
+
+#djd_site_post_cat_checklist #cats {
+	margin:0 0 0 2px;
+	padding: 0;
+}
+
+#djd_site_post_load {
+	margin: 10px 0 0 0;
+}
+
+#djd_site_post_page {
+	width: 40%;
+}
+
+.djd_site_post_taxonomy_box {
+	border: 1px solid #9f9f9f;
+	margin: 0 0 15px 0;
+	padding: 4px 0 4px 4px;
+}
+
+.djd_site_post_taxonomy_checklist {
+	list-style-type: none;
+	height: auto;
+	max-height: 150px;
+	overflow: auto;
+	width: 99%;
+	margin: 0 0 5px 0;
+}
+
+.djd_site_post_taxonomy_checklist li {
+	list-style-type: none;
+	background: none;
+	margin: 0;
+	padding: 0;
+}
+.djd_site_post_taxonomy_checklist li ul {
+	margin:0 0 0 10px;
+	list-style-type: none;
+}
+
+.djd_site_post_taxonomy_checklist .cats {
+	margin:0!important;
+}
+
+.djd_site_post_cat_checklist_admin {
+	list-style-type: none;
+	height: auto;
+	max-height: 80px;
+	width: 95%;
+	overflow: auto;
+	border: 1px solid #9f9f9f;
+	padding: 0 0 4px 2px;
+	text-align: left;
+	background-color: #ffffff;
+}
+
+.djd_site_post_cat_checklist_admin li {
+	margin: 0 0 0 2px;
+}
+
+.djd_site_post_cat_checklist_admin li ul {
+	margin:0 0 0 10px;
+}
+
+.djd_site_post_option_box {
+	background-color: #ddd;
+	margin: 5px 0px 0px 0px;
+	border: 1px solid #d9d9d9;
+}
+
+.djd_site_post_option_header_div {
+	height: 16px;
+}
+
+.djd_site_post_custom_fields {
+	height: 80px;
+	width: 99%;
+	border: 1px solid #d9d9d9;
+	overflow: auto;
+	margin: 0px 0px 5px 0px;
+	padding: 1px 0px 4px 0px;
+	text-align: left;
+}
+
+.djd_site_post_admin_table {
+	text-align: left;
+}
+
+/* TinyMCE Hacks to make this messy thing kind of responsive */
+
+.djd_site_post_form .quicktags-toolbar input {
+     width: 14%;
+}
+
+.djd_site_post_widget .quicktags-toolbar input {
+     width: 31%;
+	 font-size: 10px;
+}
+
+.djd_site_post_widget .button,
+.djd_site_post_widget .wp-switch-editor {
+	font-size: 10px !important;
+}
+
+.djd_site_post_widget .djd_site_post_form label {
+	margin-bottom: 5px;
+}
+
+.djd_site_post_widget .djd_site_post_form select {
+    width: 100%;
+}
+
+body .mceToolbar div {
+white-space: normal;
+}
+
+.mceToolbarStart.mceToolbarStartButton.mceFirst > span {
+  float: left;
+}
+
+.mceToolbarRow1 * {
+    float: left;
+}
+
+.mceToolbarRow2 * {
+    float: left;
+}
+.mceToolbarRow1 .mceListBox {
+    width: auto !important;
+}
+
+.mceToolbarRow2 .mceListBox {
+    width: auto !important;
+}
+
+.mceToolbarRow1 .mceButton {
+    float: none;
+}
+
+#errors {
+	border:solid 1px #E58E8E;
+	padding:10px;
+	margin:25px 0;
+	display:block;
+	width:437px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	background:#FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;
+	display:none;
+}
+
+#errors #info {
+	font-weight:bold;
+}
+
+#errors #info:before {
+	content: '';	
+}
+
+#success {
+	border:solid 1px #83D186;
+	padding:15px 10px;
+	margin:25px 0;
+	display:block;
+	max-width: 100%;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	background:#D3EDD3 url(../img/accepted_48.png) no-repeat 99% center;
+	display:none;
+}
+
+#refresher {
+	display: none;
+}
+
+.djd_site_post_widget #success {
+	border:solid 1px #83D186;
+	padding:15px 10px;
+	margin:25px 0;
+	display:block;
+	width:auto;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	background:#D3EDD3;
+	display:none;
+}
+
+#error, .noscriptmsg {
+	border:solid 1px #E58E8E;
+	padding:15px 10px;
+	margin:25px 0;
+	display:block;
+	max-width: 100%;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	background:#FFE6E6 url(../img/cancel_48.png) no-repeat 99% center;
+}
+
+.djd_site_post_widget #error, .djd_site_post_widget .noscriptmsg {
+	border:solid 1px #E58E8E;
+	padding:15px 10px;
+	margin:25px 0;
+	display:block;
+	width: auto;
+	-webkit-border-radius: 0;
+	-moz-border-radius:0 ;
+	border-radius: 0;
+	background:#FFE6E6;
+}
+
+.djd_site_post_widget #error, #error {
+	display:none;	
+}
+
+.noscriptmsg {
+	width: auto;
+	background:#FFE6E6;
+}
+
+#errors.visible, #success.visible, #refresher.visible {
+	display:block;	
+}
+
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.hidden { display: none; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }

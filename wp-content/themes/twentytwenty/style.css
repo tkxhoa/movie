@@ -1,0 +1,11 @@
+/*
+Theme Name: Twenty Twenty
+URI: https://txkhoa.wordpress.com/
+Description: Child theme based on the Twenty Fifteen theme
+Author: Kevin
+Author URI: https://txkhoa.wordpress.com/
+Template: twentyten 
+Version: 1.0
+*/
+@import url('../twentyten/style.css');
+
