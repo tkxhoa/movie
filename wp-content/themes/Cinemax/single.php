@@ -20,7 +20,14 @@
                     get_template_part('post', 'noresults');
                 endif; 
             ?>
-            
+	    <?php if (get_field('number_of_questions')) {
+		for ($i = 1; $i <= get_field('number_of_questions'); $i ++) {
+			echo "<br/><br/><b>Question {$i}: </b>" . get_field('question_' . $i); 
+			echo "<br/><b>___Answer 1: </b>" . get_field("answer_{$i}_1"); echo '<input type="radio" name="question_' . $i . '" />';
+			echo "<br/><b>___Answer 2: </b>" . get_field("answer_{$i}_2"); echo '<input type="radio" name="question_' . $i . '" />';
+		}
+	    }
+	    ?>
             <?php $theme->hook('content_after'); ?>
         
         </div><!-- #content -->
